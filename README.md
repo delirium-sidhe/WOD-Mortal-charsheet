@@ -3,7 +3,6 @@
 This is modification of WOD-Mortal-charsheet from http://charsheet.su. for New World of Darkness
 Disclamers all the same + it wouldn't be possible without awsome jehy's (https://github.com/jehy) work
 
-It is the first character sheet, created for http://charsheet.su.   
 It is based on Mr Gone's character sheets (http://mrgone.rocksolidshells.com/) so credit for design goes to him.
 
 What I used for this character sheet:
