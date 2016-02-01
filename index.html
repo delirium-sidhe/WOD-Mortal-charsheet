@@ -49,7 +49,7 @@
 <div class="list"><img src="img/back_big.png" class="bg-image">
 
 <div class="list-inner">
-<div class="main-header">MORTALS</div>
+<div class="main-header">World Of Darkness</div>
 <div class="props">
     <div class="prop">Name:
     </div>
@@ -58,7 +58,7 @@
     </div>
 
 
-    <div class="prop">Nature:
+    <div class="prop">Virtue:
     </div>
     <div class="prop_value">
             <span data-name="nature" data-type="select" data-value="5" data-source="get/basic/nature.json" data-pk="1"
@@ -66,33 +66,33 @@
     </div>
 
 
-    <div class="prop">Age:
+    <div class="prop">Chronicle:
     </div>
     <div class="prop_value"><span data-name="age" data-type="text" data-title="Enter age" data-pk="1"></span></div>
 
 
-    <div class="prop">Player:
+    <div class="prop">Vice:
     </div>
     <div class="prop_value"><span data-name="player_name" data-type="text" data-pk="1"
                                   data-title="Enter name"></span></div>
 
-    <div class="prop">Demeanor:
+    <div class="prop">Faction:
     </div>
     <div class="prop_value">
             <span data-name="demeanor" data-type="select" data-value="5" data-source="get/basic/nature.json" data-pk="1"
                   data-title="Select Demeanor"></span></div>
 
-    <div class="prop">Sex:
+    <div class="prop">Player:
     </div>
     <div class="prop_value"><span data-name="sex" data-type="select" data-value="" data-pk="1"
                                   data-title="Select sex"></span></div>
 
-    <div class="prop">Chronicle:
+    <div class="prop">Concept:
     </div>
     <div class="prop_value"><span data-name="chronicle" data-type="text" data-title="Enter chronicle name" data-pk="1"></span>
     </div>
 
-    <div class="prop">Concept:
+    <div class="prop">Group Name:
     </div>
     <div class="prop_value"><span data-name="concept" data-type="text" data-pk="1"
                                   data-title="Enter concept"></span>
@@ -176,10 +176,10 @@
         <img src="img/h2_bg_big.png" class="prop-header-img">
 
         <div class="prop-header-bg"><img src="img/whitepx.gif" width="100px"></div>
-        <div class="prop-header"><span>Humanity</span></div>
+        <div class="prop-header"><span>Health</span></div>
     </div>
     <div style="margin-top: 10px;">
-        <select name="Humanity">
+        <select name="Health">
             <option value=""></option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -192,6 +192,22 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
+        
+          <div style="margin-top: 12px;">
+        <select name="Health_current">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    </div>
     </div>
 
     <div class="prop-header-placeholder" style="margin-top: 40px;">
@@ -244,7 +260,10 @@
     </div>
 
     <div class="health-table">
-        <div class="health-value">Bruised</div>
+        <div class="health-value">10</div>
+        <div class="prop_value"><span data-name="derrangment" data-type="text" data-pk="1"
+                                  data-title="Enter name"></span>
+        </div>
         <div class="health-sub">&nbsp;</div>
         <div class="health-control">
             <span class="checkbox"></span><span data-name="health[0]"> </span>
@@ -280,6 +299,7 @@
             <span class="checkbox"></span><span data-name="health[6]"> </span>
         </div>
     </div>
+    
 
     <div class="prop-header-placeholder">
         <img src="img/h2_bg_big.png" class="prop-header-img">
