@@ -377,6 +377,22 @@ function set_dots_fields() {
             send_dots('Willpower_current', value);
         }
     });
+    
+     $('select[name="Health"]').barrating('show', {
+        wrapperClass: 'br-wrapper-f',
+        showSelectedRating: false,
+        onSelect: function (value, text) {
+            send_dots('Health', value);
+        }
+    });
+
+    $('select[name="Health_current"]').barrating('show', {
+        wrapperClass: 'br-wrapper-f2',
+        showSelectedRating: false,
+        selectedImage: 'img/checkbox_big_1.png',
+        unSelectedImage: 'img/checkbox_big_0.png',
+        onSelect: function (value, text) {
+            send_dots('Health_current', value);
 }
 
 //check if script is running from development environment
